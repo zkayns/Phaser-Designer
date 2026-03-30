@@ -1,0 +1,38 @@
+.smallInput {
+    width: 96px;
+}
+table {
+    border-collapse: collapse;
+}
+#paletteTable {
+    margin-top: 5px;
+    border: none;
+}
+#paletteTable td {
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    background-color: black;
+}
+input[type="color"] {
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+}
+#spriteTable {
+    background-image: repeating-conic-gradient(gray 0% 25%, lightgray 25% 50%);
+    background-size: 8px 8px;
+    margin-top: 5px;
+    border: none;
+}
+#spriteTable td {
+    border: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+#output {
+    width: 640px;
+    height: 320px;
+}
